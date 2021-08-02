@@ -1,3 +1,4 @@
 libft_cpp.a
 *.o
 objects/*
+.vscode

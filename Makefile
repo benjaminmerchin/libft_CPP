@@ -1,7 +1,7 @@
 NAME	=	libft_cpp.a
 CC		=	clang++
 OBJDIR	=	objects
-SRC		=	int_to_string.cpp
+SRC		=	int_to_string.cpp sort_table.cpp
 OBJ		=	$(addprefix $(OBJDIR)/, $(SRC:.cpp=.o))
 CFLAGS	=	-Wall -Wextra -Werror
 
