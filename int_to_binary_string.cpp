@@ -1,6 +1,6 @@
 #include "libft.hpp"
 
-std::string f(int a)
+std::string int_to_binary_string(int a)
 {
 	std::string b = "";
 	int m = 1;
