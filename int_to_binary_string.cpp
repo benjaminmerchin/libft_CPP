@@ -14,3 +14,10 @@ std::string int_to_binary_string(int a)
 	}
 	return b;
 }
+
+/*
+Shorter version with bitset library and fixed string size:
+
+#include <bitset>
+std::string s = std::bitset< 64 >( x ).to_string();
+*/
