@@ -4,7 +4,7 @@ std::string b;
 
 std::string int_to_new_base_str(long long a)
 {
-    std::string base = "0123456789abcdef";
+    std::string base = "0123456789";
     int len = base.length();
 	if (a >= len) {
         int_to_new_base_str(a/len);

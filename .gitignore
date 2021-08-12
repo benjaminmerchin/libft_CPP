@@ -2,3 +2,4 @@ libft_cpp.a
 *.o
 objects/*
 .vscode
+a.out
