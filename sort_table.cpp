@@ -11,3 +11,9 @@ void	sort_table(int n, int x[])
         }
     }
 }
+
+/*
+in the algorithm library
+sort(arr, arr + n);
+start and end of sorting;
+*/
