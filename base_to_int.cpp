@@ -12,3 +12,8 @@ int base_to_int(std::string str) {
     }
     return tot;
 }
+
+/*
+stoi(b, 0, 2);
+string b in base 2 to int
+*/
