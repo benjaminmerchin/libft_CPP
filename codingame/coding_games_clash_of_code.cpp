@@ -34,3 +34,30 @@ int main()
 		cout << endl;
 	}
 }
+
+/* PYTHON
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+n = int(input())
+a = input()
+b = input()
+l=[]
+print(a*n)
+if n%2!=0:
+    for i in range(int((n-2)/2)+1):
+        l.append(((int(n/2)-i)*a)+(b*(i+i+1))+((int(n/2)-i)*a))
+        print(((int(n/2)-i)*a)+(b*(i+i+1))+((int(n/2)-i)*a))
+    for i in l[(len(l)-2)::-1]:
+        print(i)
+else:
+    for i in range(int((n-2)/2)):
+        l.append(((int(n/2)-i-1)*a)+(b*(i+i+2))+((int(n/2)-i-1)*a))
+        print(((int(n/2)-i-1)*a)+(b*(i+i+2))+((int(n/2)-i-1)*a))
+    for i in l[(len(l)-1)::-1]:
+        print(i)
+print(a*n)
+*/
